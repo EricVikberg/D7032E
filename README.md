@@ -1,6 +1,6 @@
- Point Salad Game - D7032E Project
+ Point Salad Game - D7032E Home exam
 
-This repository contains the implementation of the Point Salad card game for the D7032E course project.
+This repository contains the implementation of the Point Salad card game for the D7032E home exam.
 
 ## Prerequisites
 
@@ -8,9 +8,12 @@ This repository contains the implementation of the Point Salad card game for the
 - Git Bash (for running tests on Windows)
 - PowerShell (for running the game)
 
-## Getting Started
+## How to run the game:
 
-1. Clone the repository:
+1. Compile the code :
    ```bash
-   git clone https://github.com/EricVikberg/D7032E.git
-   cd D7032E
+   javac -d out/production/PointSalad -cp "lib/json.jar" src/app/PointSalad.java src/**/*.java
+
+2. Run the game :
+   ```bash
+   java -cp "bin;lib/json.jar" src/app/PointSalad
