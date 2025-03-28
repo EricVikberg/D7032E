@@ -10,10 +10,16 @@ This repository contains the implementation of the Point Salad card game for the
 
 ## How to run the game:
 
-1. Compile the code :
+1. Compile the code (using Power Shell) :
    ```bash
    javac -d out/production/PointSalad -cp "lib/json.jar" src/app/PointSalad.java src/**/*.java
 
 2. Run the game :
    ```bash
    java -cp "bin;lib/json.jar" src/app/PointSalad
+
+## How to run the tests:
+
+1. Compile the code (using Git Bash) :
+   ```bash
+   ./src/unittests.sh
