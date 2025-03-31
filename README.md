@@ -20,6 +20,6 @@ This repository contains the implementation of the Point Salad card game for the
 
 ## How to run the tests (using Git Bash):
 
-1. Compile the code :
+1. Compile and run the code :
    ```bash
    ./src/unittests.sh
